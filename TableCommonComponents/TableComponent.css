@@ -1,0 +1,78 @@
+#react-table {
+  font-family: Lato, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#react-table tr:nth-child(odd) {
+  background-color: #dbdfe9;
+}
+
+#react-table th {
+  text-align: left;
+  background-color: #eef0f6;
+  color: #00072b !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+
+#react-table td {
+  font-weight: 400 !important;
+  color: #313131 !important;
+}
+
+.pageBtn {
+  background: linear-gradient(82.4deg, #2e3a59 0%, #3f82c4 113.95%);
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.pageBtn:disabled {
+  background: #cccccc;
+  color: #000000;
+  font-weight: bold;
+}
+
+.pageDropdown {
+  padding: 2px !important;
+}
+
+.fa-search.form__icon.fa-spin {
+  font-size: 24px;
+}
+
+tr:hover {
+  background: #efa239 !important;
+  cursor: pointer;
+}
+
+/* #react-table {
+    display: block !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+  } */
+
+#react-table tbody {
+  width: 100% !important;
+}
+
+.showHideFieldContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.showHideFieldItems {
+  padding: 10px;
+}
+
+.sliderIcon {
+  color: #efa239;
+}
+
+.search span {
+  position: relative;
+  left: -25px;
+  color: #efa239;
+  top: 1px;
+}

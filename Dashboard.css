@@ -1,0 +1,135 @@
+@import "../../../../../../node_modules/react-grid-layout/css/styles.css";
+@import "../../../../../../node_modules/react-resizable/css/styles.css";
+.react-grid-item {
+  background-color: #eef0f6;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), -4px -4px 13px #ffffff,
+    6px 6px 36px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+.dashboardtype {
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), -4px -4px 13px #ffffff,
+    6px 6px 36px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 12px;
+}
+.d-type {
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+
+.table.Dashboard {
+  box-shadow: none;
+}
+.icon {
+  padding-left: 90%;
+  color: #efa239;
+  cursor: pointer;
+}
+
+.table.Dashboard:nth-child(odd) {
+  background-color: #ffffff !important;
+}
+
+.react-grid-layout.layout {
+  padding-top: 25px;
+}
+
+.control-section {
+  padding-top: 25px;
+}
+
+.e-panel-container {
+  background-color: #eef0f6;
+  border-radius: 12px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), -4px -4px 13px #ffffff,
+    6px 6px 36px rgba(0, 0, 0, 0.06);
+}
+
+.myDashboard {
+  padding: 0px 25px 0px 25px;
+}
+
+.myTask {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2f3e88;
+}
+
+.incidents {
+  color: #2f3e88;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: 22px;
+  padding: 8px;
+}
+.number {
+  color: #4d576a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 51px;
+  padding: 9px;
+}
+.paraDashboard {
+  color: #828282;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  padding-left: 5px;
+}
+.table.Dashboard th {
+  color: #4d576a;
+}
+.highcharts-legend-item.highcharts-undefined-series.highcharts-color-undefined.highcharts-series-undefined
+  text {
+  fill: black !important;
+}
+.highcharts-axis-labels.highcharts-yaxis-labels text {
+  fill: black !important;
+}
+.highcharts-axis-labels.highcharts-xaxis-labels text {
+  fill: black !important;
+}
+.highcharts-legend-item.highcharts-map-series text {
+  fill: black;
+}
+/* .dashboard {
+  display: flex;
+}
+
+.dashboard-first-col {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.task-overview {
+  padding-top: 10px;
+}
+
+.dashboard-second-col {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.mydashboard {
+  padding: 3%;
+} */
+
+.MuiPaper-root.MuiDialog-paper {
+  background-color: #eef0f6;
+}
+
+.MuiDialogContent-root::-webkit-scrollbar {
+  display: none;
+}
+
+.kri th {
+  position: sticky;
+  top: 0px;
+}
